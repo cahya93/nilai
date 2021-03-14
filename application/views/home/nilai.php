@@ -1,5 +1,5 @@
 <!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
+<div class="content-wrapper pb-3">
     <!-- Content Header (Page header) -->
     <div class="content-header">
         <div class="container">
@@ -47,6 +47,8 @@
                             <th>No</th>
                             <th>NIS</th>
                             <th>Nama</th>
+                            <th>Kelas</th>
+                            <th>Mata Pelajaran</th>
                             <th>Nilai</th>
                         </tr>
                     </thead>
@@ -59,7 +61,19 @@
                                 <td><?= $d['nama']; ?></td>
                                 <td>
                                     <?php
-                                    $nilai = $this->db->get_where('tbl_nilai', ['nis' => $d['nis']])->row_array();
+                                    $kls = $this->db->get_where('tbl_kelas', ['id' => $d['kelas']])->row_array();
+                                    echo $kls['kelas'];
+                                    ?>
+                                </td>
+                                <td>
+                                    <?php
+                                    $mpl = $this->db->get_where('tbl_mapel', ['id' => $mapel])->row_array();
+                                    echo $mpl['mapel'];
+                                    ?>
+                                </td>
+                                <td>
+                                    <?php
+                                    $nilai = $this->db->get_where('tbl_nilai', ['nis' => $d['nis'], 'id_mapel' => $mapel, 'tp' => $tp2])->row_array();
                                     $score = $nilai['nilai'];
                                     if ($score == 0) {
                                         echo "<span class='btn btn-danger'>0</span>";

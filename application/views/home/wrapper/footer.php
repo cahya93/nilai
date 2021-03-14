@@ -2,7 +2,7 @@
     <footer class="main-footer">
         <!-- To the right -->
         <div class="float-right d-none d-sm-inline">
-            By Cahya93
+            By Eko Cahyanto
         </div>
         <!-- Default to the left -->
         <strong>Copyright &copy; 2021 <a href="#">IT Development SMK Muh Karangmojo</a>.</strong> All rights reserved.

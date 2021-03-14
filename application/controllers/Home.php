@@ -31,6 +31,8 @@ class Home extends CI_Controller
         $tp = $this->input->get('tp');
         $kelas = $this->input->get('kelas');
         $mapel = $this->input->get('mapel');
+        $data['mapel'] = $mapel;
+        $data['tp2'] = $tp;
         $data['data'] = $this->Home_model->getSiswa($kelas);
         $this->load->view('home/wrapper/head', $data);
         $this->load->view('home/wrapper/navbar');

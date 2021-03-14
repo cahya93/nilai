@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div class="container">
-        <a href="" class="navbar-brand">
+        <a href="<?= base_url(); ?>" class="navbar-brand">
             <img src="<?= base_url(); ?>assets/dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">Info Ujian</span>
         </a>
@@ -14,7 +14,7 @@
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="" class="nav-link"><i class="fas fa-home"> Home</i></a>
+                    <a href="<?= base_url(); ?>" class="nav-link"><i class="fas fa-home"> Home</i></a>
                 </li>
                 <li class="nav-item">
                     <a href="https://wa.me/6283840398931" class="nav-link"> <i class="fab fa-whatsapp"> Contact</i></a>
