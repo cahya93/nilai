@@ -22,6 +22,10 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link"> <i class="fas fa-edit"> Konfirmasi</i></a>
                 </li>
+                <li class="nav-item">
+                    <a href="<?= base_url('home/nilai'); ?>" class="nav-link"><i class="fas fa-clipboard-list"> Nilai</i></a>
+                </li>
+                <li class="nav-item">
                 <li class="nav-item dropdown">
                     <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fas fa-sign-in-alt"> Login</i></a>
                     <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
