@@ -15,7 +15,7 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $data['title'] = "Halaman awal";
+        $data['title'] = "Info Ujian";
         $data['kelas'] = $this->db->get_where('tbl_kelas', ['tingkat' => 1])->result_array();
         $data['data'] = $this->db->get_where('tbl_jadwal')->result_array();
         $this->load->view('home/wrapper/head', $data);
