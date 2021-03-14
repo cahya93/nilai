@@ -1,308 +1,479 @@
-<!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= $title; ?></title>
-
-    <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="<?= base_url(); ?>/assets/plugins/fontawesome-free/css/all.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="<?= base_url(); ?>/assets/dist/css/adminlte.min.css">
-</head>
-
-<body class="hold-transition layout-top-nav">
-    <div class="wrapper">
-
-        <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
-            <div class="container">
-                <a href="../../index3.html" class="navbar-brand">
-                    <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                    <span class="brand-text font-weight-light">AdminLTE 3</span>
-                </a>
-
-                <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
-                    <!-- Left navbar links -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="index3.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
-                            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
-                                <li><a href="#" class="dropdown-item">Some action </a></li>
-                                <li><a href="#" class="dropdown-item">Some other action</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <!-- Level two dropdown-->
-                                <li class="dropdown-submenu dropdown-hover">
-                                    <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Hover for action</a>
-                                    <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
-                                        <li>
-                                            <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
-                                        </li>
-
-                                        <!-- Level three dropdown-->
-                                        <li class="dropdown-submenu">
-                                            <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
-                                            <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
-                                                <li><a href="#" class="dropdown-item">3rd level</a></li>
-                                                <li><a href="#" class="dropdown-item">3rd level</a></li>
-                                            </ul>
-                                        </li>
-                                        <!-- End Level three -->
-
-                                        <li><a href="#" class="dropdown-item">level 2</a></li>
-                                        <li><a href="#" class="dropdown-item">level 2</a></li>
-                                    </ul>
-                                </li>
-                                <!-- End Level two -->
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <!-- SEARCH FORM -->
-                    <form class="form-inline ml-0 ml-md-3">
-                        <div class="input-group input-group-sm">
-                            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                            <div class="input-group-append">
-                                <button class="btn btn-navbar" type="submit">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <!-- Right navbar links -->
-                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
-                    <!-- Messages Dropdown Menu -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="#">
-                            <i class="fas fa-comments"></i>
-                            <span class="badge badge-danger navbar-badge">3</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                            <a href="#" class="dropdown-item">
-                                <!-- Message Start -->
-                                <div class="media">
-                                    <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-                                    <div class="media-body">
-                                        <h3 class="dropdown-item-title">
-                                            Brad Diesel
-                                            <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                                        </h3>
-                                        <p class="text-sm">Call me whenever you can...</p>
-                                        <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                    </div>
-                                </div>
-                                <!-- Message End -->
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">
-                                <!-- Message Start -->
-                                <div class="media">
-                                    <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                    <div class="media-body">
-                                        <h3 class="dropdown-item-title">
-                                            John Pierce
-                                            <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                                        </h3>
-                                        <p class="text-sm">I got your message bro</p>
-                                        <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                    </div>
-                                </div>
-                                <!-- Message End -->
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">
-                                <!-- Message Start -->
-                                <div class="media">
-                                    <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-                                    <div class="media-body">
-                                        <h3 class="dropdown-item-title">
-                                            Nora Silvester
-                                            <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-                                        </h3>
-                                        <p class="text-sm">The subject goes here</p>
-                                        <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-                                    </div>
-                                </div>
-                                <!-- Message End -->
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-                        </div>
-                    </li>
-                    <!-- Notifications Dropdown Menu -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" data-toggle="dropdown" href="#">
-                            <i class="far fa-bell"></i>
-                            <span class="badge badge-warning navbar-badge">15</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                            <span class="dropdown-header">15 Notifications</span>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-envelope mr-2"></i> 4 new messages
-                                <span class="float-right text-muted text-sm">3 mins</span>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-users mr-2"></i> 8 friend requests
-                                <span class="float-right text-muted text-sm">12 hours</span>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item">
-                                <i class="fas fa-file mr-2"></i> 3 new reports
-                                <span class="float-right text-muted text-sm">2 days</span>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-                            <i class="fas fa-th-large"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- /.navbar -->
-
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <div class="content-header">
-                <div class="container">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1 class="m-0"> Top Navigation <small>Example 3.0</small></h1>
-                        </div><!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Layout</a></li>
-                                <li class="breadcrumb-item active">Top Navigation</li>
-                            </ol>
-                        </div><!-- /.col -->
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content-header -->
-
-            <!-- Main content -->
-            <div class="content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.
-                                    </p>
-
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
-                                </div>
-                            </div>
-
-                            <div class="card card-primary card-outline">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.
-                                    </p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
-                                </div>
-                            </div><!-- /.card -->
-                        </div>
-                        <!-- /.col-md-6 -->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="card-title m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h5 class="card-title m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.col-md-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div><!-- /.container-fluid -->
-            </div>
-            <!-- /.content -->
-        </div>
-        <!-- /.content-wrapper -->
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
-
-        <!-- Main Footer -->
-        <footer class="main-footer">
-            <!-- To the right -->
-            <div class="float-right d-none d-sm-inline">
-                Anything you want
-            </div>
-            <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-        </footer>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper pb-3">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Informasi Ujian</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+            <p>Keterangan:</p>
+            <ol style="background-color: white;">
+                <li style="color: blue;">Teks berwarna biru nilai sudah ada</li>
+                <li style="color: chartreuse">Teks berwarna hijau sudah buat soal dengan lengkap</li>
+                <li style="color:orange">Teks berwarna orange sudah terjadwal</li>
+            </ol>
+        </div><!-- /.container-fluid -->
     </div>
-    <!-- ./wrapper -->
+    <!-- /.content-header -->
+    <!-- PTS -->
+    <!-- Main content -->
+    <div class="content">
+        <div class="container">
+            <!-- /.col-md-6 -->
+            <div class="card card-primary card-outline">
+                <div class="card-header" style="text-align:center;">
+                    <h5>Jadwal PTS Kelas X</h5>
+                    <h5>Tahun Pelajaran 2020/2021</h5>
+                    <h5>Semester Genap</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-inverse table-responsive">
+                        <thead class="thead-inverse">
+                            <tr align="center">
+                                <th rowspan="2" style="vertical-align:middle;">No</th>
+                                <th rowspan="2" style="vertical-align:middle;" width="150px">Tanggal</th>
+                                <th rowspan="2" style="vertical-align:middle;">Jam ke</th>
+                                <th colspan="8">Mata Pelajaran</th>
+                            </tr>
+                            <tr>
+                                <th>X TKRO 1</th>
+                                <th>X TKRO 2</th>
+                                <th>X TBSM</th>
+                                <th>X AKL</th>
+                                <th>X OTKP 1</th>
+                                <th>X OTKP 2</th>
+                                <th>X BDP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="4">1</td>
+                                <td rowspan="4">Senin, 22 Maret 2021</td>
+                                <td>1</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                                <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Kimia (Iwing)</td>
+                                <td>Kimia (Iwing)</td>
+                                <td>Kimia (Iwing)</td>
+                                <td style="color: chartreuse;">AKT DASAR (Aris D)</td>
+                                <td>Teknologi Perkantoran (Ratna Esa)</td>
+                                <td>Teknologi Perkantoran (Ratna Esa)</td>
+                                <td>Marketing (H. Margono)</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Simdig (Ahsan F)</td>
+                                <td>Simdig (Ahsan F)</td>
+                                <td>Simdig (Ahsan F)</td>
+                                <td>Simdig (Ahsan F)</td>
+                                <td>Simdig (Ratna Esa)</td>
+                                <td>Simdig (Ratna Esa)</td>
+                                <td>Simdig (Ahsan F)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">2</td>
+                                <td rowspan="4">Selasa, 23 Maret 2021</td>
+                                <td>1</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                                <td>Pend Tarikh (Hadi N)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                                <td>Pend Fikih (Yarudin)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Fisika (Iwing)</td>
+                                <td>Fisika (Iwing)</td>
+                                <td>Fisika (Iwing)</td>
+                                <td>Etika Profesi (Nurfitri H)</td>
+                                <td>Kearsipan (Sri S)</td>
+                                <td>Kearsipan (Sri S)</td>
+                                <td>Perencanaan Bisnis (H. Margono)</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                                <td>Seni Budaya (Dilyan E)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">3</td>
+                                <td rowspan="3">Rabu, 24 Maret 2021</td>
+                                <td>1</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                                <td>Kemuh (Ita P)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                                <td>Pend Bahasa Arab (Hana M)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
+                                <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
+                                <td>Gambar Teknik Otomotif (Hanif M)</td>
+                                <td>Adm. Umum (Hj. Lina S)</td>
+                                <td>Adm. Umum (Hj. Lina S)</td>
+                                <td>Adm. Umum (Hj. Lina S)</td>
+                                <td>Adm. Umum (Hj. Lina S)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">4</td>
+                                <td rowspan="4">Kamis, 25 Maret 2021</td>
+                                <td>1</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                                <td>B. Indo (Luthfi I)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                                <td>B. Jawa (Dwi A)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                                <td>Penjasorkes (Saiman)</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                                <td>Aplikasi Pengolah Angka (Nurfitri)</td>
+                                <td>Korespondensi (Yesi S)</td>
+                                <td>Korespondensi (Yesi S)</td>
+                                <td>Komunikasi Bisnis (Ferida)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">5</td>
+                                <td rowspan="4">Jumat, 26 Maret 2021</td>
+                                <td>1</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                                <td>B. Inggris (Anisa R)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Teknik Dasar Otomotif (Edi p)</td>
+                                <td>Teknik Dasar Otomotif (Edi p)</td>
+                                <td>Teknik Dasar Otomotif (Hanif M)</td>
+                                <td>Ekonomi Bisnis (Nurfitri)</td>
+                                <td>Ekonomi Bisnis (Ahsan F)</td>
+                                <td>Ekonomi Bisnis (Ahsan F)</td>
+                                <td>Ekonomi Bisnis (Ahsan F)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
+                                <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
+                                <td>Pekerjaan Dasar Otomotif (M. Ahsany)</td>
+                                <td>IPA (Iwing)</td>
+                                <td>IPA (Iwing)</td>
+                                <td>IPA (Iwing)</td>
+                                <td>IPA (Iwing)</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                                <td>Perbankan Dasar (Yeni P)</td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                                <td style="background-color: black;"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">6</td>
+                                <td rowspan="3">Senin, 29 Maret 2021</td>
+                                <td>1</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                                <td>Matematika (Anna R)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                                <td>PKn (Yusuf)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Sejarah Indo (Yusuf)</td>
+                                <td>Sejarah Indo (Yusuf)</td>
+                                <td>Sejarah Indo (Dilyan E)</td>
+                                <td>Sejarah Indo (Dilyan E)</td>
+                                <td>Sejarah Indo (Dilyan E)</td>
+                                <td>Sejarah Indo (Dilyan E)</td>
+                                <td>Sejarah Indo (Dilyan E)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
 
-    <!-- REQUIRED SCRIPTS -->
-
-    <!-- jQuery -->
-    <script src="../../plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="../../dist/js/adminlte.min.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="../../dist/js/demo.js"></script>
-</body>
-
-</html>
+    <!-- USEK -->
+    <!-- Main content -->
+    <div class="content">
+        <div class="container">
+            <!-- /.col-md-6 -->
+            <div class="card card-primary card-outline">
+                <div class="card-header" style="text-align:center;">
+                    <h5>Jadwal USEK Kelas XII</h5>
+                    <h5>Tahun Pelajaran 2020/2021</h5>
+                    <h5>Semester Genap</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-inverse table-responsive">
+                        <thead class="thead-inverse">
+                            <tr align="center">
+                                <th rowspan="2" style="vertical-align:middle;">No</th>
+                                <th rowspan="2" style="vertical-align:middle;" width="150px">Tanggal</th>
+                                <th rowspan="2" style="vertical-align:middle;">Jam ke</th>
+                                <th colspan="8">Mata Pelajaran</th>
+                            </tr>
+                            <tr>
+                                <th>XII TKRO 1</th>
+                                <th>XII TKRO 2</th>
+                                <th>XII TBSM</th>
+                                <th>XII AKL 1</th>
+                                <th>XII AKL 2</th>
+                                <th>XII OTKP 1</th>
+                                <th>XII OTKP 2</th>
+                                <th>XII BDP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">1</td>
+                                <td rowspan="2">Senin, 22 Maret 2021</td>
+                                <td>1</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                                <td>Pend Aqidah Akhlak</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                                <td>Pend Al-Quran Hadits</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">2</td>
+                                <td rowspan="2">Selasa, 23 Maret 2021</td>
+                                <td>1</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                                <td>Pend Tarikh</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                                <td>Pend Fikih</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">3</td>
+                                <td rowspan="2">Rabu, 24 Maret 2021</td>
+                                <td>1</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                                <td>Kemuh</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                                <td>Pend Bahasa Arab</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">4</td>
+                                <td rowspan="2">Kamis, 25 Maret 2021</td>
+                                <td>1</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                                <td>B. Indo</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                                <td>B. Jawa</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">5</td>
+                                <td rowspan="2">Jumat, 26 Maret 2021</td>
+                                <td>1</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                                <td>B. Inggris</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td style="color: chartreuse;">Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td>Teori Kompetensi Keahlian (C3)</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">6</td>
+                                <td rowspan="2">Senin, 29 Maret 2021</td>
+                                <td>1</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                                <td>PKn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
