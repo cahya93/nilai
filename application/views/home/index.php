@@ -75,7 +75,7 @@
                                 <td>Kimia (Iwing)</td>
                                 <td>Kimia (Iwing)</td>
                                 <td>Kimia (Iwing)</td>
-                                <td style="color: chartreuse;">AKT DASAR (Aris D)</td>
+                                <td style="color: orange;">AKT DASAR (Aris D)</td>
                                 <td>Teknologi Perkantoran (Ratna Esa)</td>
                                 <td>Teknologi Perkantoran (Ratna Esa)</td>
                                 <td>Marketing (H. Margono)</td>
