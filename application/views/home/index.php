@@ -35,6 +35,7 @@
                                 <th rowspan="2" style="vertical-align:middle;">No</th>
                                 <th rowspan="2" style="vertical-align:middle;" width="150px">Tanggal</th>
                                 <th rowspan="2" style="vertical-align:middle;">Jam ke</th>
+                                <th rowspan="2" style="vertical-align:middle;">Jam</th>
                                 <th colspan="8">Mata Pelajaran</th>
                             </tr>
                             <tr>
@@ -52,6 +53,7 @@
                                 <td rowspan="4">1</td>
                                 <td rowspan="4">Senin, 22 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>Pend Aqidah Akhlak (Karmila)</td>
                                 <td>Pend Aqidah Akhlak (Karmila)</td>
                                 <td>Pend Aqidah Akhlak (Karmila)</td>
@@ -62,6 +64,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
                                 <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
                                 <td>Pend Al-Quran Hadits (Muh Nurudin)</td>
@@ -72,6 +75,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td>Kimia (Iwing)</td>
                                 <td>Kimia (Iwing)</td>
                                 <td>Kimia (Iwing)</td>
@@ -82,6 +86,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
+                                <td>13.00-14.30</td>
                                 <td>Simdig (Ahsan F)</td>
                                 <td>Simdig (Ahsan F)</td>
                                 <td>Simdig (Ahsan F)</td>
@@ -94,6 +99,7 @@
                                 <td rowspan="4">2</td>
                                 <td rowspan="4">Selasa, 23 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>Pend Tarikh (Hadi N)</td>
                                 <td>Pend Tarikh (Hadi N)</td>
                                 <td>Pend Tarikh (Hadi N)</td>
@@ -104,6 +110,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>Pend Fikih (Yarudin)</td>
                                 <td>Pend Fikih (Yarudin)</td>
                                 <td>Pend Fikih (Yarudin)</td>
@@ -114,16 +121,18 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td>Fisika (Iwing)</td>
                                 <td>Fisika (Iwing)</td>
                                 <td>Fisika (Iwing)</td>
                                 <td>Etika Profesi (Nurfitri H)</td>
-                                <td style="color: chartreuse">Kearsipan (Sri S)</td>
-                                <td style="color: chartreuse">Kearsipan (Sri S)</td>
+                                <td style="color: orange">Kearsipan (Sri S)</td>
+                                <td style="color: orange">Kearsipan (Sri S)</td>
                                 <td>Perencanaan Bisnis (H. Margono)</td>
                             </tr>
                             <tr>
                                 <td>4</td>
+                                <td>13.00-14.30</td>
                                 <td>Seni Budaya (Dilyan E)</td>
                                 <td>Seni Budaya (Dilyan E)</td>
                                 <td>Seni Budaya (Dilyan E)</td>
@@ -136,6 +145,7 @@
                                 <td rowspan="3">3</td>
                                 <td rowspan="3">Rabu, 24 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>Kemuh (Ita P)</td>
                                 <td>Kemuh (Ita P)</td>
                                 <td>Kemuh (Ita P)</td>
@@ -146,6 +156,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>Pend Bahasa Arab (Hana M)</td>
                                 <td>Pend Bahasa Arab (Hana M)</td>
                                 <td>Pend Bahasa Arab (Hana M)</td>
@@ -156,6 +167,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
                                 <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
                                 <td>Gambar Teknik Otomotif (Hanif M)</td>
@@ -168,6 +180,7 @@
                                 <td rowspan="4">4</td>
                                 <td rowspan="4">Kamis, 25 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>B. Indo (Luthfi I)</td>
                                 <td>B. Indo (Luthfi I)</td>
                                 <td>B. Indo (Luthfi I)</td>
@@ -178,6 +191,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>B. Jawa (Dwi A)</td>
                                 <td>B. Jawa (Dwi A)</td>
                                 <td>B. Jawa (Dwi A)</td>
@@ -188,6 +202,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td>Penjasorkes (Saiman)</td>
                                 <td>Penjasorkes (Saiman)</td>
                                 <td>Penjasorkes (Saiman)</td>
@@ -198,6 +213,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
+                                <td>13.00-14.30</td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
@@ -210,6 +226,7 @@
                                 <td rowspan="4">5</td>
                                 <td rowspan="4">Jumat, 26 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>B. Inggris (Anisa R)</td>
                                 <td>B. Inggris (Anisa R)</td>
                                 <td>B. Inggris (Anisa R)</td>
@@ -220,6 +237,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>Teknik Dasar Otomotif (Edi p)</td>
                                 <td>Teknik Dasar Otomotif (Edi p)</td>
                                 <td>Teknik Dasar Otomotif (Hanif M)</td>
@@ -230,6 +248,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
                                 <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
                                 <td>Pekerjaan Dasar Otomotif (M. Ahsany)</td>
@@ -240,6 +259,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
+                                <td>13.00-14.30</td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
@@ -252,6 +272,7 @@
                                 <td rowspan="3">6</td>
                                 <td rowspan="3">Senin, 29 Maret 2021</td>
                                 <td>1</td>
+                                <td>07.30-09.30</td>
                                 <td>Matematika (Anna R)</td>
                                 <td>Matematika (Anna R)</td>
                                 <td>Matematika (Anna R)</td>
@@ -262,6 +283,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>09.30-11.00</td>
                                 <td>PKn (Yusuf)</td>
                                 <td>PKn (Yusuf)</td>
                                 <td>PKn (Yusuf)</td>
@@ -272,6 +294,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>11.30-13.00</td>
                                 <td>Sejarah Indo (Yusuf)</td>
                                 <td>Sejarah Indo (Yusuf)</td>
                                 <td>Sejarah Indo (Dilyan E)</td>
