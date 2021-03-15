@@ -118,8 +118,8 @@
                                 <td>Fisika (Iwing)</td>
                                 <td>Fisika (Iwing)</td>
                                 <td>Etika Profesi (Nurfitri H)</td>
-                                <td>Kearsipan (Sri S)</td>
-                                <td>Kearsipan (Sri S)</td>
+                                <td style="color: chartreuse">Kearsipan (Sri S)</td>
+                                <td style="color: chartreuse">Kearsipan (Sri S)</td>
                                 <td>Perencanaan Bisnis (H. Margono)</td>
                             </tr>
                             <tr>
