@@ -168,8 +168,8 @@
                             <tr>
                                 <td>3</td>
                                 <td>11.30-13.00</td>
-                                <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
-                                <td style="color: chartreuse;">Gambar Teknik Otomotif (Muhas R)</td>
+                                <td style="color: orange;">Gambar Teknik Otomotif (Muhas R)</td>
+                                <td style="color: orange;">Gambar Teknik Otomotif (Muhas R)</td>
                                 <td>Gambar Teknik Otomotif (Hanif M)</td>
                                 <td>Adm. Umum (Hj. Lina S)</td>
                                 <td>Adm. Umum (Hj. Lina S)</td>
