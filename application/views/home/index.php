@@ -420,38 +420,38 @@
                                 <td rowspan="2">4</td>
                                 <td rowspan="2">Kamis, 25 Maret 2021</td>
                                 <td>1</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
-                                <td>B. Indo</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
+                                <td>B. Indo (Ika Budi)</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
-                                <td>B. Jawa</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
+                                <td>B. Jawa (Dwiana)</td>
                             </tr>
                             <tr>
                                 <td rowspan="2">5</td>
                                 <td rowspan="2">Jumat, 26 Maret 2021</td>
                                 <td>1</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
-                                <td>B. Inggris</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
+                                <td>B. Inggris (Sari Retno)</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -468,25 +468,25 @@
                                 <td rowspan="2">6</td>
                                 <td rowspan="2">Senin, 29 Maret 2021</td>
                                 <td>1</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
-                                <td>Matematika</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
+                                <td>Matematika (Anik N)</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
-                                <td>PKn</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
+                                <td>PKN (Fajar N)</td>
                             </tr>
                         </tbody>
                     </table>
