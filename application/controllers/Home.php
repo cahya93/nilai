@@ -58,4 +58,33 @@ class Home extends CI_Controller
         $callback = array('list_mapel' => $lists); // Masukan variabel lists tadi ke dalam array $callback dengan index array : list_kota
         echo json_encode($callback); // konversi varibael $callback menjadi JSON
     }
+
+    public function pdfJadwal()
+    {
+        $this->load->view('home/pdf-pts');
+
+        $mpdf = new \Mpdf\Mpdf(
+            [
+                'mode' => 'utf-8',
+                'format' => 'A4',
+                'orientation' => 'P',
+                'setAutoTopMargin' => false
+            ]
+        );
+
+        $html = $this->load->view('home/pdf-pts', [], true);
+        $mpdf->WriteHTML($html);
+
+        $mpdf->AddPage(
+            [
+                'mode' => 'utf-8',
+                'format' => 'A4',
+                'orientation' => 'P',
+                'setAutoTopMargin' => false
+            ]
+        );
+        $html2 = $this->load->view('home/pdf-usek', [], true);
+        $mpdf->WriteHTML($html2);
+        $mpdf->Output('Rekap Jadwal PTS dan USEK.pdf', \Mpdf\Output\Destination::INLINE);
+    }
 }
