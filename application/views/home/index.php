@@ -248,9 +248,9 @@
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>11.30-13.00</td>
-                                <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
-                                <td style="color: chartreuse;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
+                                <td>12.30-14.00</td>
+                                <td style="color: orange;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
+                                <td style="color: orange;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
                                 <td>Pekerjaan Dasar Otomotif (M. Ahsany)</td>
                                 <td>IPA (Iwing)</td>
                                 <td>IPA (Iwing)</td>
@@ -259,7 +259,7 @@
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>13.00-14.30</td>
+                                <td>14.00-15.30</td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
                                 <td style="background-color: black;"></td>
