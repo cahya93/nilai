@@ -8,12 +8,6 @@
                     <h1 class="m-0">Informasi Ujian</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
-            <p>Keterangan:</p>
-            <ol style="background-color: white;">
-                <li style="color: blue;">Teks berwarna biru nilai sudah ada</li>
-                <li style="color: chartreuse">Teks berwarna hijau sudah buat soal dengan lengkap</li>
-                <li style="color:orange">Teks berwarna orange sudah terjadwal</li>
-            </ol>
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
@@ -29,6 +23,13 @@
                     <h5>Semester Genap</h5>
                 </div>
                 <div class="card-body">
+                    <p>Keterangan:</p>
+                    <ol style="background-color: white;">
+                        <li style="color: blue;">Teks berwarna biru nilai sudah ada</li>
+                        <li style="color: chartreuse">Teks berwarna hijau sudah buat soal dengan lengkap</li>
+                        <li style="color:orange">Teks berwarna orange sudah terjadwal</li>
+                        <li>Teks berwarna hitam belum konfirmasi/diverifikasi</li>
+                    </ol>
                     <table class="table table-bordered table-inverse table-responsive">
                         <thead class="thead-inverse">
                             <tr align="center">
@@ -53,14 +54,14 @@
                                 <td rowspan="4">1</td>
                                 <td rowspan="4">Senin, 22 Maret 2021</td>
                                 <td>1</td>
-                                <td>07.30-09.30</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
-                                <td>Pend Aqidah Akhlak (Karmila)</td>
+                                <td>07.30-09.00</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
+                                <td style="color:orange">Pend Aqidah Akhlak (Karmila)</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -99,7 +100,7 @@
                                 <td rowspan="4">2</td>
                                 <td rowspan="4">Selasa, 23 Maret 2021</td>
                                 <td>1</td>
-                                <td>07.30-09.30</td>
+                                <td>07.30-09.00</td>
                                 <td>Pend Tarikh (Hadi N)</td>
                                 <td>Pend Tarikh (Hadi N)</td>
                                 <td>Pend Tarikh (Hadi N)</td>
@@ -145,7 +146,7 @@
                                 <td rowspan="3">3</td>
                                 <td rowspan="3">Rabu, 24 Maret 2021</td>
                                 <td>1</td>
-                                <td>07.30-09.30</td>
+                                <td>07.30-09.00</td>
                                 <td>Kemuh (Ita P)</td>
                                 <td>Kemuh (Ita P)</td>
                                 <td>Kemuh (Ita P)</td>
@@ -180,14 +181,14 @@
                                 <td rowspan="4">4</td>
                                 <td rowspan="4">Kamis, 25 Maret 2021</td>
                                 <td>1</td>
-                                <td>07.30-09.30</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
-                                <td>B. Indo (Luthfi I)</td>
+                                <td>07.30-09.00</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                                <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -220,7 +221,7 @@
                                 <td>Aplikasi Pengolah Angka (Nurfitri)</td>
                                 <td>Korespondensi (Yesi S)</td>
                                 <td>Korespondensi (Yesi S)</td>
-                                <td>Komunikasi Bisnis (Ferida)</td>
+                                <td style="color:chartreuse;">Komunikasi Bisnis (Ferida)</td>
                             </tr>
                             <tr>
                                 <td rowspan="4">5</td>
@@ -462,7 +463,7 @@
                                 <td>Teori Kompetensi Keahlian (C3)</td>
                                 <td>Teori Kompetensi Keahlian (C3)</td>
                                 <td>Teori Kompetensi Keahlian (C3)</td>
-                                <td>Teori Kompetensi Keahlian (C3)</td>
+                                <td style="color:chartreuse">Teori Kompetensi Keahlian (C3)</td>
                             </tr>
                             <tr>
                                 <td rowspan="2">6</td>
