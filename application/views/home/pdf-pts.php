@@ -12,7 +12,6 @@
             <div class="card-body">
                 <p>Keterangan:</p>
                 <ol style="background-color: white;">
-                    <li style="color: blue;">Teks berwarna biru nilai sudah ada</li>
                     <li style="color: chartreuse">Teks berwarna hijau sudah buat soal dengan lengkap</li>
                     <li style="color:orange">Teks berwarna orange sudah terjadwal</li>
                     <li>Teks berwarna hitam belum konfirmasi/diverifikasi</li>
@@ -58,20 +57,20 @@
                         <tr>
                             <td>3</td>
                             <td>11.30-13.00</td>
-                            <td>Kimia (Iwing)</td>
-                            <td>Kimia (Iwing)</td>
+                            <td style="color: orange;">Kimia (Iwing)</td>
+                            <td style="color: orange;">Kimia (Iwing)</td>
                             <td style="color: orange;">AKT DASAR (Aris D)</td>
-                            <td>Teknologi Perkantoran (Ratna Esa)</td>
+                            <td style="color: orange;">Teknologi Perkantoran (Ratna Esa)</td>
                             <td>Marketing (H. Margono)</td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>13.00-14.30</td>
-                            <td>Simdig (Ahsan F)</td>
-                            <td>Simdig (Ahsan F)</td>
-                            <td>Simdig (Ahsan F)</td>
-                            <td>Simdig (Ratna Esa)</td>
-                            <td>Simdig (Ahsan F)</td>
+                            <td style="color: orange;">Simdig (Ahsan F)</td>
+                            <td style="color: orange;">Simdig (Ahsan F)</td>
+                            <td style="color: orange;">Simdig (Ahsan F)</td>
+                            <td style="color: orange;">Simdig (Ahsan F)</td>
+                            <td style="color: orange;">Simdig (Ahsan F)</td>
                         </tr>
                         <tr>
                             <td rowspan="4">2</td>
@@ -96,8 +95,8 @@
                         <tr>
                             <td>3</td>
                             <td>11.30-13.00</td>
-                            <td>Fisika (Iwing)</td>
-                            <td>Fisika (Iwing)</td>
+                            <td style="color: orange">Fisika (Iwing)</td>
+                            <td style="color: orange">Fisika (Iwing)</td>
                             <td>Etika Profesi (Nurfitri H)</td>
                             <td style="color: orange">Kearsipan (Sri S)</td>
                             <td>Perencanaan Bisnis (H. Margono)</td>
@@ -105,22 +104,22 @@
                         <tr>
                             <td>4</td>
                             <td>13.00-14.30</td>
-                            <td>Seni Budaya (Dilyan E)</td>
-                            <td>Seni Budaya (Dilyan E)</td>
-                            <td>Seni Budaya (Dilyan E)</td>
-                            <td>Seni Budaya (Dilyan E)</td>
-                            <td>Seni Budaya (Dilyan E)</td>
+                            <td style="color: orange">Seni Budaya (Dilyan E)</td>
+                            <td style="color: orange">Seni Budaya (Dilyan E)</td>
+                            <td style="color: orange">Seni Budaya (Dilyan E)</td>
+                            <td style="color: orange">Seni Budaya (Dilyan E)</td>
+                            <td style="color: orange">Seni Budaya (Dilyan E)</td>
                         </tr>
                         <tr>
                             <td rowspan="3">3</td>
                             <td rowspan="3">Rabu, 24 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.00</td>
-                            <td>Kemuh (Ita P)</td>
-                            <td>Kemuh (Ita P)</td>
-                            <td>Kemuh (Ita P)</td>
-                            <td>Kemuh (Ita P)</td>
-                            <td>Kemuh (Ita P)</td>
+                            <td style="color: orange">Kemuh (Ita P)</td>
+                            <td style="color: orange">Kemuh (Ita P)</td>
+                            <td style="color: orange">Kemuh (Ita P)</td>
+                            <td style="color: orange">Kemuh (Ita P)</td>
+                            <td style="color: orange">Kemuh (Ita P)</td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -145,11 +144,11 @@
                             <td rowspan="4">Kamis, 25 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.00</td>
-                            <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
-                            <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
-                            <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
-                            <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
-                            <td style="color: chartreuse;">B. Indo (Luthfi I)</td>
+                            <td style="color: orange;">B. Indo (Luthfi I)</td>
+                            <td style="color: orange;">B. Indo (Luthfi I)</td>
+                            <td style="color: orange;">B. Indo (Luthfi I)</td>
+                            <td style="color: orange;">B. Indo (Luthfi I)</td>
+                            <td style="color: orange;">B. Indo (Luthfi I)</td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -176,7 +175,7 @@
                             <td style="background-color: black;"></td>
                             <td>Aplikasi Pengolah Angka (Nurfitri)</td>
                             <td>Korespondensi (Yesi S)</td>
-                            <td style="color:chartreuse;">Komunikasi Bisnis (Ferida)</td>
+                            <td style="color:orange;">Komunikasi Bisnis (Ferida)</td>
                         </tr>
                         <tr>
                             <td rowspan="4">5</td>
@@ -192,7 +191,7 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Teknik Dasar Otomotif (Edi p)</td>
+                            <td style="color:orange;">Teknik Dasar Otomotif (Edi p)</td>
                             <td>Teknik Dasar Otomotif (Hanif M)</td>
                             <td>Ekonomi Bisnis (Nurfitri)</td>
                             <td>Ekonomi Bisnis (Ahsan F)</td>
@@ -202,10 +201,10 @@
                             <td>3</td>
                             <td>12.30-14.00</td>
                             <td style="color: orange;">Pekerjaan Dasar Otomotif (Kanifathoni)</td>
-                            <td>Pekerjaan Dasar Otomotif (M. Ahsany)</td>
-                            <td>IPA (Iwing)</td>
-                            <td>IPA (Iwing)</td>
-                            <td>IPA (Iwing)</td>
+                            <td style="color: orange;">Pekerjaan Dasar Otomotif (M. Ahsany)</td>
+                            <td style="color: orange">IPA (Iwing)</td>
+                            <td style="color: orange">IPA (Iwing)</td>
+                            <td style="color: orange">IPA (Iwing)</td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -221,29 +220,29 @@
                             <td rowspan="3">Senin, 29 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.30</td>
-                            <td>Matematika (Anna R)</td>
-                            <td>Matematika (Anna R)</td>
-                            <td>Matematika (Anna R)</td>
-                            <td>Matematika (Anna R)</td>
-                            <td>Matematika (Anna R)</td>
+                            <td style="color:orange;">Matematika (Anna R)</td>
+                            <td style="color:orange;">Matematika (Anna R)</td>
+                            <td style="color:orange;">Matematika (Anna R)</td>
+                            <td style="color:orange;">Matematika (Anna R)</td>
+                            <td style="color:orange;">Matematika (Anna R)</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>PKn (Yusuf)</td>
-                            <td>PKn (Yusuf)</td>
-                            <td>PKn (Yusuf)</td>
-                            <td>PKn (Yusuf)</td>
-                            <td>PKn (Yusuf)</td>
+                            <td style="color: orange">PKn (Yusuf)</td>
+                            <td style="color: orange">PKn (Yusuf)</td>
+                            <td style="color: orange">PKn (Yusuf)</td>
+                            <td style="color: orange">PKn (Yusuf)</td>
+                            <td style="color: orange">PKn (Yusuf)</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>11.30-13.00</td>
-                            <td>Sejarah Indo (Yusuf)</td>
-                            <td>Sejarah Indo (Dilyan E)</td>
-                            <td>Sejarah Indo (Dilyan E)</td>
-                            <td>Sejarah Indo (Dilyan E)</td>
-                            <td>Sejarah Indo (Dilyan E)</td>
+                            <td style="color: orange">Sejarah Indo (Dilyan E)</td>
+                            <td style="color: orange">Sejarah Indo (Dilyan E)</td>
+                            <td style="color: orange">Sejarah Indo (Dilyan E)</td>
+                            <td style="color: orange">Sejarah Indo (Dilyan E)</td>
+                            <td style="color: orange">Sejarah Indo (Dilyan E)</td>
                         </tr>
                     </tbody>
                 </table>
