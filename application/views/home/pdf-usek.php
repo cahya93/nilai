@@ -62,11 +62,11 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Pend Fikih</td>
-                            <td>Pend Fikih</td>
-                            <td>Pend Fikih</td>
-                            <td>Pend Fikih</td>
-                            <td>Pend Fikih</td>
+                            <td style="color: orange">Pend Fikih (Munawar)</td>
+                            <td style="color: orange">Pend Fikih (Munawar)</td>
+                            <td style="color: orange">Pend Fikih (Munawar)</td>
+                            <td style="color: orange">Pend Fikih (Munawar)</td>
+                            <td style="color: orange">Pend Fikih (Munawar)</td>
                         </tr>
                         <tr>
                             <td rowspan="2">3</td>
@@ -92,7 +92,7 @@
                             <td rowspan="2">4</td>
                             <td rowspan="2">Kamis, 25 Maret 2021</td>
                             <td>1</td>
-                            <td>07.30-09.00</td>
+                            <td>07.30-09.30</td>
                             <td>B. Indo (Ika Budi)</td>
                             <td>B. Indo (Ika Budi)</td>
                             <td>B. Indo (Ika Budi)</td>
@@ -101,7 +101,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>09.30-11.00</td>
+                            <td>10.00-11.30</td>
                             <td style="color:orange;">B. Jawa (Dwiana)</td>
                             <td style="color:orange;">B. Jawa (Dwiana)</td>
                             <td style="color:orange;">B. Jawa (Dwiana)</td>
@@ -112,7 +112,7 @@
                             <td rowspan="2">5</td>
                             <td rowspan="2">Jumat, 26 Maret 2021</td>
                             <td>1</td>
-                            <td>07.30-09.00</td>
+                            <td>07.30-09.30</td>
                             <td>B. Inggris (Sari Retno)</td>
                             <td>B. Inggris (Sari Retno)</td>
                             <td>B. Inggris (Sari Retno)</td>
@@ -121,10 +121,10 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>09.30-11.00</td>
+                            <td>10.00-12.00</td>
                             <td style="color:orange">Teori Kompetensi Keahlian (C3)</td>
                             <td style="color: orange;">Teori Kompetensi Keahlian (C3)</td>
-                            <td>Teori Kompetensi Keahlian (C3)</td>
+                            <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
                             <td>Teori Kompetensi Keahlian (C3)</td>
                             <td style="color:orange">Teori Kompetensi Keahlian (C3)</td>
                         </tr>
@@ -132,7 +132,7 @@
                             <td rowspan="2">6</td>
                             <td rowspan="2">Senin, 29 Maret 2021</td>
                             <td>1</td>
-                            <td>07.30-09.00</td>
+                            <td>07.30-09.30</td>
                             <td>Matematika (Anik N)</td>
                             <td>Matematika (Anik N)</td>
                             <td>Matematika (Anik N)</td>
@@ -141,7 +141,7 @@
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>09.30-11.00</td>
+                            <td>10.00-11.30</td>
                             <td style="color:orange;">PKN (Fajar N)</td>
                             <td style="color:orange;">PKN (Fajar N)</td>
                             <td style="color:orange;">PKN (Fajar N)</td>
