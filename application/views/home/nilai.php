@@ -47,7 +47,7 @@
                     </select>
                     <button type="submit" class="btn btn-primary">LIHAT</button>
                 </form>
-                <table id="example12" class="table table-bordered table-striped">
+                <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
                             <th>No</th>
