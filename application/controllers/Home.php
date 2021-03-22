@@ -26,11 +26,14 @@ class Home extends CI_Controller
     public function nilai()
     {
         $data['title'] = "Nilai Ujian";
+        $data['kategori'] = $this->db->get_where('tbl_kategori')->result_array();
         $data['tp'] = $this->db->get_where('tbl_tp')->result_array();
         $data['kelas'] = $this->db->get_where('tbl_kelas')->result_array();
+        $kategori = $this->input->get('kategori');
         $tp = $this->input->get('tp');
         $kelas = $this->input->get('kelas');
         $mapel = $this->input->get('mapel');
+        $data['ktgr'] = $kategori;
         $data['mapel'] = $mapel;
         $data['tp2'] = $tp;
         $data['data'] = $this->Home_model->getSiswa($kelas);

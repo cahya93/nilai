@@ -42,22 +42,22 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Pend Al-Quran Hadits</td>
-                            <td>Pend Al-Quran Hadits</td>
-                            <td>Pend Al-Quran Hadits</td>
-                            <td>Pend Al-Quran Hadits</td>
-                            <td>Pend Al-Quran Hadits</td>
+                            <td style="color: orange">Pend Al-Quran Hadits (Muh Nurudin)</td>
+                            <td style="color: orange">Pend Al-Quran Hadits (Muh Nurudin)</td>
+                            <td style="color: orange">Pend Al-Quran Hadits (Muh Nurudin)</td>
+                            <td style="color: orange">Pend Al-Quran Hadits (Muh Nurudin)</td>
+                            <td style="color: orange">Pend Al-Quran Hadits (Muh Nurudin)</td>
                         </tr>
                         <tr>
                             <td rowspan="2">2</td>
                             <td rowspan="2">Selasa, 23 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.00</td>
-                            <td>Pend Tarikh</td>
-                            <td>Pend Tarikh</td>
-                            <td>Pend Tarikh</td>
-                            <td>Pend Tarikh</td>
-                            <td>Pend Tarikh</td>
+                            <td style="color: orange">Pend Tarikh (Yarudin)</td>
+                            <td style="color: orange">Pend Tarikh (Yarudin)</td>
+                            <td style="color: orange">Pend Tarikh (Yarudin)</td>
+                            <td style="color: orange">Pend Tarikh (Yarudin)</td>
+                            <td style="color: orange">Pend Tarikh (Yarudin)</td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -73,31 +73,30 @@
                             <td rowspan="2">Rabu, 24 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.00</td>
-                            <td>Kemuh</td>
-                            <td>Kemuh</td>
-                            <td>Kemuh</td>
-                            <td>Kemuh</td>
-                            <td>Kemuh</td>
+                            <td style="color: orange">Kemuh (Karmila)</td>
+                            <td style="color: orange">Kemuh (Karmila)</td>
+                            <td style="color: orange">Kemuh (Karmila)</td>
+                            <td style="color: orange">Kemuh (Karmila)</td>
+                            <td style="color: orange">Kemuh (Karmila)</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                        </tr>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
                         <tr>
                             <td rowspan="2">4</td>
                             <td rowspan="2">Kamis, 25 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.30</td>
-                            <td>B. Indo (Ika Budi)</td>
-                            <td>B. Indo (Ika Budi)</td>
-                            <td>B. Indo (Ika Budi)</td>
-                            <td>B. Indo (Ika Budi)</td>
-                            <td>B. Indo (Ika Budi)</td>
+                            <td style="color: orange">B. Indo (Ika Budi)</td>
+                            <td style="color: orange">B. Indo (Ika Budi)</td>
+                            <td style="color: orange">B. Indo (Ika Budi)</td>
+                            <td style="color: orange">B. Indo (Ika Budi)</td>
+                            <td style="color: orange">B. Indo (Ika Budi)</td>
                         </tr>
                         <tr>
                             <td>2</td>
@@ -113,31 +112,30 @@
                             <td rowspan="2">Jumat, 26 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.30</td>
-                            <td>B. Inggris (Sari Retno)</td>
-                            <td>B. Inggris (Sari Retno)</td>
-                            <td>B. Inggris (Sari Retno)</td>
-                            <td>B. Inggris (Sari Retno)</td>
-                            <td>B. Inggris (Sari Retno)</td>
-                        </tr>
+                            <td style="color:orange;">B. Inggris (Anisa)</td>
+                            <td style="color:orange;">B. Inggris (Anisa)</td>
+                            <td style="color:orange;">B. Inggris (Anisa)</td>
+                            <td style="color:orange;">B. Inggris (Anisa)</td>
+                            <td style="color:orange;">B. Inggris (Anisa)</td>
                         <tr>
                             <td>2</td>
                             <td>10.00-12.00</td>
                             <td style="color:orange">Teori Kompetensi Keahlian (C3)</td>
                             <td style="color: orange;">Teori Kompetensi Keahlian (C3)</td>
                             <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
-                            <td>Teori Kompetensi Keahlian (C3)</td>
-                            <td style="color:orange">Teori Kompetensi Keahlian (C3)</td>
+                            <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
+                            <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
                         </tr>
                         <tr>
                             <td rowspan="2">6</td>
                             <td rowspan="2">Senin, 29 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.30</td>
-                            <td>Matematika (Anik N)</td>
-                            <td>Matematika (Anik N)</td>
-                            <td>Matematika (Anik N)</td>
-                            <td>Matematika (Anik N)</td>
-                            <td>Matematika (Anik N)</td>
+                            <td style="color:orange;">Matematika (Anik N)</td>
+                            <td style="color:orange;">Matematika (Anik N)</td>
+                            <td style="color:orange;">Matematika (Anik N)</td>
+                            <td style="color:orange;">Matematika (Anik N)</td>
+                            <td style="color:orange;">Matematika (Anik N)</td>
                         </tr>
                         <tr>
                             <td>2</td>

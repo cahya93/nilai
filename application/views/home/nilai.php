@@ -24,6 +24,12 @@
             <!-- /.card-header -->
             <div class="card-body">
                 <form style="margin-bottom:5px" action="" method="get">
+                    <select name="kategori" id="kategori">
+                        <option value="">Pilih Jenis Ujian</option>
+                        <?php foreach ($kategori as $k) : ?>
+                            <option value="<?= $k['id']; ?>"><?= $k['nama']; ?></option>
+                        <?php endforeach; ?>
+                    </select>
                     <select name="tp" id="tp">
                         <option value="">Pilih Tahun Pelajaran</option>
                         <?php foreach ($tp as $t) : ?>
@@ -41,7 +47,7 @@
                     </select>
                     <button type="submit" class="btn btn-primary">LIHAT</button>
                 </form>
-                <table id="example1" class="table table-bordered table-striped">
+                <table id="example12" class="table table-bordered table-striped">
                     <thead>
                         <tr>
                             <th>No</th>
@@ -73,7 +79,7 @@
                                 </td>
                                 <td>
                                     <?php
-                                    $nilai = $this->db->get_where('tbl_nilai', ['nis' => $d['nis'], 'id_mapel' => $mapel, 'tp' => $tp2])->row_array();
+                                    $nilai = $this->db->get_where('tbl_nilai', ['nis' => $d['nis'], 'id_kategori' => $ktgr, 'id_mapel' => $mapel, 'tp' => $tp2])->row_array();
                                     $score = $nilai['nilai'];
                                     if ($score == 0) {
                                         echo "<span class='btn btn-danger'>0</span>";

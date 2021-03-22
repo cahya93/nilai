@@ -86,20 +86,20 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Pend Fikih (Yarudin)</td>
-                            <td>Pend Fikih (Yarudin)</td>
-                            <td>Pend Fikih (Yarudin)</td>
-                            <td>Pend Fikih (Yarudin)</td>
-                            <td>Pend Fikih (Yarudin)</td>
+                            <td style="color: orange">Pend Fikih (Yarudin)</td>
+                            <td style="color: orange">Pend Fikih (Yarudin)</td>
+                            <td style="color: orange">Pend Fikih (Yarudin)</td>
+                            <td style="color: orange">Pend Fikih (Yarudin)</td>
+                            <td style="color: orange">Pend Fikih (Yarudin)</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>11.30-13.00</td>
                             <td style="color: orange">Fisika (Iwing)</td>
                             <td style="color: orange">Fisika (Iwing)</td>
-                            <td>Etika Profesi (Nurfitri H)</td>
+                            <td style="color: orange">Etika Profesi (Nurfitri H)</td>
                             <td style="color: orange">Kearsipan (Sri S)</td>
-                            <td>Perencanaan Bisnis (H. Margono)</td>
+                            <td style="color: orange;">Perencanaan Bisnis (H. Margono)</td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -124,11 +124,11 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
-                            <td>Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
+                            <td style="color: orange">Pend Bahasa Arab (Hana M)</td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -153,11 +153,11 @@
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
-                            <td>B. Jawa (Dwi A)</td>
-                            <td>B. Jawa (Dwi A)</td>
-                            <td>B. Jawa (Dwi A)</td>
-                            <td>B. Jawa (Dwi A)</td>
-                            <td>B. Jawa (Dwi A)</td>
+                            <td style="color: orange;">B. Jawa (Dwi A)</td>
+                            <td style="color: orange;">B. Jawa (Dwi A)</td>
+                            <td style="color: orange;">B. Jawa (Dwi A)</td>
+                            <td style="color: orange;">B. Jawa (Dwi A)</td>
+                            <td style="color: orange;">B. Jawa (Dwi A)</td>
                         </tr>
                         <tr>
                             <td>3</td>
@@ -173,7 +173,7 @@
                             <td>13.00-14.30</td>
                             <td style="background-color: black;"></td>
                             <td style="background-color: black;"></td>
-                            <td>Aplikasi Pengolah Angka (Nurfitri)</td>
+                            <td style="color: orange;">Aplikasi Pengolah Angka (Nurfitri)</td>
                             <td style="color:orange;">Korespondensi (Yesi S)</td>
                             <td style="color:orange;">Komunikasi Bisnis (Ferida)</td>
                         </tr>
@@ -182,20 +182,20 @@
                             <td rowspan="4">Jumat, 26 Maret 2021</td>
                             <td>1</td>
                             <td>07.30-09.30</td>
-                            <td>B. Inggris (Anisa R)</td>
-                            <td>B. Inggris (Anisa R)</td>
-                            <td>B. Inggris (Anisa R)</td>
-                            <td>B. Inggris (Anisa R)</td>
-                            <td>B. Inggris (Anisa R)</td>
+                            <td style="color:orange;">B. Inggris (Anisa R)</td>
+                            <td style="color:orange;">B. Inggris (Anisa R)</td>
+                            <td style="color:orange;">B. Inggris (Anisa R)</td>
+                            <td style="color:orange;">B. Inggris (Anisa R)</td>
+                            <td style="color:orange;">B. Inggris (Anisa R)</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>09.30-11.00</td>
                             <td style="color: orange;">Teknik Dasar Otomotif (Edi p)</td>
                             <td style="color: orange">Teknik Dasar Otomotif (Hanif M)</td>
-                            <td>Ekonomi Bisnis (Nurfitri)</td>
-                            <td>Ekonomi Bisnis (Ahsan F)</td>
-                            <td>Ekonomi Bisnis (Ahsan F)</td>
+                            <td style="color: orange">Ekonomi Bisnis (Ahsan F)</td>
+                            <td style="color: orange">Ekonomi Bisnis (Ahsan F)</td>
+                            <td style="color: orange">Ekonomi Bisnis (Ahsan F)</td>
                         </tr>
                         <tr>
                             <td>3</td>
