@@ -56,6 +56,7 @@
                             <th>Kelas</th>
                             <th>Mata Pelajaran</th>
                             <th>Nilai</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -87,6 +88,17 @@
                                         echo "<span class='btn btn-warning'>$score</span>";
                                     } else if ($score >= 75) {
                                         echo "<span class='btn btn-success'>$score</span>";
+                                    }
+                                    ?>
+                                </td>
+                                <td>
+                                    <?php
+                                    $nilai = $this->db->get_where('tbl_nilai', ['nis' => $d['nis'], 'id_kategori' => $ktgr, 'id_mapel' => $mapel, 'tp' => $tp2])->row_array();
+                                    $score = $nilai['nilai'];
+                                    if ($score < 75) {
+                                        echo "<span class='btn btn-danger'>Remidi</span>";
+                                    } else if ($score >= 75) {
+                                        echo "<span class='btn btn-success'>Tuntas</span>";
                                     }
                                     ?>
                                 </td>
