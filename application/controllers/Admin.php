@@ -48,7 +48,7 @@ class Admin extends CI_Controller
     }
     public function input_nilai()
     {
-        $data['title'] = "Nilai Ujian";
+        $data['title'] = "Input Nilai Ujian";
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
         $data['kategori'] = $this->db->get_where('tbl_kategori')->result_array();
