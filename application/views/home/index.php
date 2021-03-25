@@ -387,8 +387,8 @@
                                 <td style="color:orange;">B. Inggris (Anisa)</td>
                             <tr>
                                 <td>2</td>
-                                <td>10.00-12.00</td>
-                                <td style="color:orange">Teori Kompetensi Keahlian (C3)</td>
+                                <td>09.45-11.45</td>
+                                <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
                                 <td style="color: orange;">Teori Kompetensi Keahlian (C3)</td>
                                 <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
                                 <td style="color: orange">Teori Kompetensi Keahlian (C3)</td>
