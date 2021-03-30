@@ -26,7 +26,6 @@
                 <form style="margin-bottom:5px" action="" method="get">
                     <select name="kategori" id="kategori">
                         <option value="">Pilih Jenis Ujian</option>
-                        <option value="1">PTS</option>
                         <!-- <?php foreach ($kategori as $k) : ?>
                             <option value="<?= $k['id']; ?>"><?= $k['nama']; ?></option>
                         <?php endforeach; ?> -->
