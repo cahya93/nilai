@@ -42,8 +42,8 @@ class Auth extends CI_Controller
                     if ($user['level'] == 1) {
                         redirect('admin');
                     } else {
-                        if ($user['role_id'] == 2) {
-                            redirect('menu');
+                        if ($user['level'] == 2) {
+                            redirect('guru');
                         } else {
                             if ($user['role_id'] == 3) {
                                 redirect('admin');
