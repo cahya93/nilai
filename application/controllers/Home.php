@@ -90,4 +90,24 @@ class Home extends CI_Controller
         $mpdf->WriteHTML($html2);
         $mpdf->Output('Rekap Jadwal PTS dan USEK.pdf', \Mpdf\Output\Destination::INLINE);
     }
+
+    public function ujian()
+    {
+        $data['title'] = "Form Ujian Susulan";
+        $data['kategori'] = $this->db->get_where('tbl_kategori')->result_array();
+        $data['tp'] = $this->db->get_where('tbl_tp')->result_array();
+        $data['kelas'] = $this->db->get_where('tbl_kelas')->result_array();
+        $kategori = $this->input->get('kategori');
+        $tp = $this->input->get('tp');
+        $kelas = $this->input->get('kelas');
+        $mapel = $this->input->get('mapel');
+        $data['ktgr'] = $kategori;
+        $data['mapel'] = $mapel;
+        $data['tp2'] = $tp;
+        $data['data'] = $this->Home_model->getSiswa($kelas);
+        $this->load->view('home/wrapper/head', $data);
+        $this->load->view('home/wrapper/navbar');
+        $this->load->view('home/ujian', $data);
+        $this->load->view('home/wrapper/footer');
+    }
 }
