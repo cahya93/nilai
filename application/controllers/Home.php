@@ -110,4 +110,48 @@ class Home extends CI_Controller
         $this->load->view('home/ujian', $data);
         $this->load->view('home/wrapper/footer');
     }
+
+    public function laporan(){
+        $data['title'] = "Laporan Hasil Belajar Siswa";
+        $data['wali'] = $this->Home_model->getWaliKelas();
+        $data['tp'] = $this->db->get_where('tbl_tp')->result_array();
+        $data['kelas'] = $this->db->get_where('tbl_kelas')->result_array();
+        $wali_kelas = $this->input->get('wali');
+        $tp = $this->input->get('tp');
+        $kelas = $this->input->get('kelas');
+        
+        $data['data'] = $this->Home_model->getMaster($tp, $kelas);
+        $this->load->view('home/wrapper/head', $data);
+        $this->load->view('home/wrapper/navbar');
+        $this->load->view('home/laporan', $data);
+        $this->load->view('home/wrapper/footer');
+    }
+    public function cetak($nis)
+    {
+        $data['title'] = "Cetak Laporan Hasil Belajar Siswa";
+        $data['nis'] = $nis;
+        $data['data'] = $this->db->get_where('master',['id_siswa'=>$nis])->result_array();
+        $data['nasional'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 1])->result_array();
+        $data['wilayah'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 2])->result_array();
+        $data['bidang_keahlian'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 3])->result_array();
+        $data['program_keahlian'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 4])->result_array();
+        $data['kompetensi_keahlian'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 5])->result_array();
+        $data['lokal'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 6])->result_array();
+        $data['khusus'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 7])->result_array();
+        $data['pai'] = $this->db->get_where('master',['id_siswa'=>$nis,'id_kelompok'=> 8])->result_array();
+        $this->load->view('home/cetak-laporan',$data);
+
+        $mpdf = new \Mpdf\Mpdf(
+            [
+                'mode' => 'utf-8',
+                'format' => array(215, 330),
+                'orientation' => 'P',
+                'setAutoTopMargin' => false
+            ]
+        );
+
+        $html = $this->load->view('home/cetak-laporan', [], true);
+        $mpdf->WriteHTML($html);
+        $mpdf->Output('Laporan siswa ' . $nis . '.pdf', \Mpdf\Output\Destination::INLINE);
+    }
 }

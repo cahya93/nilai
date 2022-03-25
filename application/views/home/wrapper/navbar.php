@@ -19,8 +19,13 @@
                 <li class="nav-item">
                     <a href="https://wa.me/6283840398931" class="nav-link"> <i class="fab fa-whatsapp"> Contact</i></a>
                 </li>
-                <li class="nav-item">
-                    <a href="<?= base_url('home/nilai'); ?>" class="nav-link"><i class="fas fa-clipboard-list"> Nilai</i></a>
+                <li class="nav-item dropdown ">
+                    <a id="dropdownNilai" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fas fa-clipboard-list"> Nilai</i></a>
+                    <ul aria-labelledby="dropdownNilai" class="dropdown-menu border-0 shadow">
+                        <li><a href="<?= base_url('home/nilai'); ?>" class="dropdown-item">Nilai Ujian</a></li>
+                        <li><a href="<?= base_url('home/laporan'); ?>" class="dropdown-item">Laporan</a></li>
+                        <!-- <li><a href="#" class="dropdown-item">Some other action</a></li> -->
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fas fa-file-alt"> Ujian Susulan</i></a>
@@ -33,6 +38,7 @@
                     <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
                         <li><a href="<?= base_url('auth'); ?>" class="dropdown-item">Admin</a></li>
                         <li><a href="<?= base_url('auth'); ?>" class="dropdown-item">Guru</a></li>
+                        <li><a href="<?= base_url('auth'); ?>" class="dropdown-item">Wali Kelas</a></li>
                         <!-- <li><a href="#" class="dropdown-item">Some other action</a></li> -->
                     </ul>
                 </li>
